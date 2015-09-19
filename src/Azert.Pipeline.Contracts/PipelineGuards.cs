@@ -14,5 +14,9 @@ namespace Azert.Pipeline.Contracts {
             Contract.Requires<ArgumentNullException>(input != null, "input cannot be null");
             return null;
         }
+
+        public void Dispose() {
+
+        }
     }
 }

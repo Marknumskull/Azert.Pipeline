@@ -10,6 +10,7 @@ namespace Azert.Pipleline.Sync {
     /// </summary>
     public class Pipeline : IPipeline {
 
+        private bool disposing = false;
         private Queue<IFilter> _filters = new Queue<IFilter>();
 
         /// <summary>
@@ -52,5 +53,18 @@ namespace Azert.Pipleline.Sync {
 
             return previous;
         }
+
+        public void Dispose() {
+            if(!disposing) {
+                ExecuteDispose();
+            }
+        }
+
+        private void ExecuteDispose() {
+            disposing = true;
+
+            _filters.Clear();
+        }
+
     }
 }

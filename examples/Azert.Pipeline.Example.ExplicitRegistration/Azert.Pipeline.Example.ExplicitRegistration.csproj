@@ -33,6 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Azert.Pipeline.Contracts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Azert.Pipeline.Synchronous.1.0.0\lib\Azert.Pipeline.Contracts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Azert.Pipleline.Sync, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Azert.Pipeline.Synchronous.1.0.0\lib\Azert.Pipleline.Sync.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,16 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\src\Azert.Pipeline.Contracts\Azert.Pipeline.Contracts.csproj">
-      <Project>{19d709a2-8fb2-4fda-b6ed-3139e897fdfc}</Project>
-      <Name>Azert.Pipeline.Contracts</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\src\Azert.Pipleline.Sync\Azert.Pipleline.Sync.csproj">
-      <Project>{37c02448-42b5-4741-9212-bfe45454dbd8}</Project>
-      <Name>Azert.Pipleline.Sync</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
