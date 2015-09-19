@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azert.Pipeline.Example", "examples\Azert.Pipeline.Example\Azert.Pipeline.Example.csproj", "{5A303130-5733-4998-AE4D-575DAA6362CB}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azert.Pipeline.Contracts", "src\Azert.Pipeline.Contracts\Azert.Pipeline.Contracts.csproj", "{19D709A2-8FB2-4FDA-B6ED-3139E897FDFC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azert.Pipleline.Sync", "src\Azert.Pipleline.Sync\Azert.Pipleline.Sync.csproj", "{37C02448-42B5-4741-9212-BFE45454DBD8}"
@@ -13,16 +11,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pipeline", "pipeline", "{42
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{56A37C5B-A4CE-4FC7-8478-65576A9CAFAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azert.Pipeline.Example.IoC", "examples\Azert.Pipeline.Example.IoC\Azert.Pipeline.Example.IoC.csproj", "{EAB62C6E-7775-4493-84C7-62AD062C3C1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azert.Pipeline.Example.ExplicitRegistration", "examples\Azert.Pipeline.Example.ExplicitRegistration\Azert.Pipeline.Example.ExplicitRegistration.csproj", "{61D8AC86-B70E-4E87-AFAB-6B81A1EA2702}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5A303130-5733-4998-AE4D-575DAA6362CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A303130-5733-4998-AE4D-575DAA6362CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A303130-5733-4998-AE4D-575DAA6362CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A303130-5733-4998-AE4D-575DAA6362CB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{19D709A2-8FB2-4FDA-B6ED-3139E897FDFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{19D709A2-8FB2-4FDA-B6ED-3139E897FDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19D709A2-8FB2-4FDA-B6ED-3139E897FDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -31,13 +29,22 @@ Global
 		{37C02448-42B5-4741-9212-BFE45454DBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37C02448-42B5-4741-9212-BFE45454DBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37C02448-42B5-4741-9212-BFE45454DBD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAB62C6E-7775-4493-84C7-62AD062C3C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB62C6E-7775-4493-84C7-62AD062C3C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB62C6E-7775-4493-84C7-62AD062C3C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB62C6E-7775-4493-84C7-62AD062C3C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D8AC86-B70E-4E87-AFAB-6B81A1EA2702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D8AC86-B70E-4E87-AFAB-6B81A1EA2702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D8AC86-B70E-4E87-AFAB-6B81A1EA2702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D8AC86-B70E-4E87-AFAB-6B81A1EA2702}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5A303130-5733-4998-AE4D-575DAA6362CB} = {56A37C5B-A4CE-4FC7-8478-65576A9CAFAB}
 		{19D709A2-8FB2-4FDA-B6ED-3139E897FDFC} = {42691120-5105-4F08-9ADB-46F51BAC14F9}
 		{37C02448-42B5-4741-9212-BFE45454DBD8} = {42691120-5105-4F08-9ADB-46F51BAC14F9}
+		{EAB62C6E-7775-4493-84C7-62AD062C3C1C} = {56A37C5B-A4CE-4FC7-8478-65576A9CAFAB}
+		{61D8AC86-B70E-4E87-AFAB-6B81A1EA2702} = {56A37C5B-A4CE-4FC7-8478-65576A9CAFAB}
 	EndGlobalSection
 EndGlobal

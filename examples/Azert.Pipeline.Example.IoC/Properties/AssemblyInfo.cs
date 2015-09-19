@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Azert.Pipeline.Example")]
+[assembly: AssemblyTitle("Azert.Pipeline.Example.IoC")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Azert.Pipeline.Example")]
+[assembly: AssemblyProduct("Azert.Pipeline.Example.IoC")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5a303130-5733-4998-ae4d-575daa6362cb")]
+[assembly: Guid("eab62c6e-7775-4493-84c7-62ad062c3c1c")]
 
 // Version information for an assembly consists of the following four values:
 //
