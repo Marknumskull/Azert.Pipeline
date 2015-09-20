@@ -51,7 +51,8 @@
 
 <p>To add a new filter simply implement IFilter and register with your Pipeline:</p>
 
-<p>`public class Lowercase : IFilter {
+<p>`
+public class Lowercase : IFilter {
         public int Order =&gt; 1;</p>
 
 <pre><code>    public object Process(object input) {
@@ -60,8 +61,10 @@
 
         return input;
     }
-}`
+}
 </code></pre>
+
+<p>`</p>
 
 <p>And register:</p>
 
