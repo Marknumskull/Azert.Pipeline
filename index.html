@@ -51,11 +51,10 @@
 
 <p>To add a new filter simply implement IFilter and register with your Pipeline:</p>
 
-<p>`
-public class Lowercase : IFilter {
-        public int Order =&gt; 1;</p>
+<pre><code>public class Lowercase : IFilter {
+    public int Order =&gt; 1;
 
-<pre><code>    public object Process(object input) {
+    public object Process(object input) {
 
         Console.WriteLine(input.ToString().ToLowerInvariant());
 
@@ -63,8 +62,6 @@ public class Lowercase : IFilter {
     }
 }
 </code></pre>
-
-<p>`</p>
 
 <p>And register:</p>
 
