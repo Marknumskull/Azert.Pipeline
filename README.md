@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/3tnqdrpd8f6gfmp5?retina=true)](https://ci.appveyor.com/project/Marknumskull/azert-pipeline)
 # Azert.Pipeline
 
 A simple synchronous pipeline utilising the pipes and filters pattern, similar to that described here https://msdn.microsoft.com/en-gb/library/dn568100.aspx
