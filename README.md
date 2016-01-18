@@ -1,4 +1,5 @@
 # Azert.Pipeline
+[![Build status](https://ci.appveyor.com/api/projects/status/e8c6b6ux250c962n?svg=true)](https://ci.appveyor.com/project/Marknumskull/azert-httpclient)
 A simple synchronous pipeline utilising the pipes and filters pattern, similar to that described here https://msdn.microsoft.com/en-gb/library/dn568100.aspx
 
 This contains a pipeline contract as well as implementation which you can use in your projects.
